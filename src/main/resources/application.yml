@@ -2,6 +2,7 @@ spring.application.name: sample-spring-boot-app-k8s-150
 
 springdoc.show-actuator: true
 
+
 management.endpoints.web.exposure.include: '*'
 management:
   endpoint.health:
